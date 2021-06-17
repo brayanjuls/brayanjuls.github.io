@@ -1,3 +1,77 @@
-theme: jekyll-theme-cayman
-title: [Brayan Jules]
-description: []
+title: Software Engineering Things
+title_separator: "|"
+name: "Brayan Jules"
+email: bj@brayanjules.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I am a software engineer that enjoy learning new things and this blog 
+  is a experiment of learning in public, welcome.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://brayanjules.com" 
+repository: "brayanjuls/brayanjuls.github.io"
+masthead_title: "Discovering Software Engineering"
+twitter_username: brayanjuls
+github_username: brayanjuls
+
+# Build settings
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+locale: "en-US"
+timezone: America/Santiago
+author:
+  name: "Brayan Jules"
+  avatar: #"/assets/images/photo_option.jpg"
+  bio: "I am a software engineer that enjoy learning new things and this blog is a experiment of learning in public, welcome. "
+  location: "Santiago, Chile"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/brayanjuls"    
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Brayanjuls"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      date_format: "%Y-%m-%d"
+      share: false
+      related: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: home
+      author_profile: true      
+          
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
