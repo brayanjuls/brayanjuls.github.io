@@ -1,9 +1,9 @@
 title: Software Engineering Things
 title_separator: "|"
 name: "Brayan Jules"
-email: bj@brayanjules.com
+email: brayan1213@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a software engineer that enjoy learning new things and this blog 
+  I am a software engineer that enjoy learning new things in tech and general life and this blog 
   is a experiment of learning in public, welcome.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://brayanjules.com" 
@@ -27,7 +27,7 @@ timezone: America/Santiago
 author:
   name: "Brayan Jules"
   avatar: #"/assets/images/photo_option.jpg"
-  bio: "I am a software engineer that enjoy learning new things and this blog is a experiment of learning in public, welcome. "
+  bio: "I am a software engineer that enjoy learning new things in tech and general life and this blog is a experiment of learning in public, welcome."
   location: "Santiago, Chile"
   links:
     - label: "GitHub"
