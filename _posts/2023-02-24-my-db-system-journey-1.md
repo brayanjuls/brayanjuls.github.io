@@ -1,7 +1,7 @@
 ---
 title:  "My Database Systems Journey I"
 date:   2023-02-24 00:00:00 -0400
-categories: oss, db-systems, delta
+categories: db-systems
 ---
 
 I have been interested in database systems since the first time I used Postgres at university, maybe it was because I was good at writing SQL or because of the satisfaction of manipulating data and getting information of out it, either way, all the paths in my career had led me to be a data engineer nowadays, so I spent most of my days at work building data platforms and manipulating data, pretty cool for a data nerd, right? Well, it turns out that my interest in database systems has changed, I don't only want to use them. I also have the desire to fully understand its internal details and be able to build them.

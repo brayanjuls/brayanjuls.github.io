@@ -1,7 +1,7 @@
 ---
 title:  "Jodie - Append Without Duplication"
 date:   2023-02-26 00:00:00 -0400
-categories: oss, delta-lake
+categories: oss delta-lake
 ---
 
 [Jodie](https://github.com/MrPowers/jodie) is an open-source library that offers a variety of helper functions that make it easy to perform common delta lake operations using apache spark and scala. One of those functions is `appendWithoutDuplicates`. 
