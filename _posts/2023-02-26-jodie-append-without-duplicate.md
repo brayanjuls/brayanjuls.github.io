@@ -79,6 +79,8 @@ libraryDependencies += "com.github.mrpowers" %% "jodie" % "0.0.3"
 Now we should be ready to use Jodie. As in the previous section, we first load the source table, and after that, we call the `appendWithoutDuplicates` function passing the existing delta table, the data that should be appended, and a sequence of columns name that represent a unique key as input parameters. Here is the code implementation:
 
 ```scala
+import mrpowers.jodie.DeltaHelpers
+
 val sourceDF = spark
                 .format("jdbc")
                 .options(...)
